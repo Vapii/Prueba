@@ -6,7 +6,105 @@
 body {
     font-family: segoi-ui;
 }
+header{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+
+}
+li{
+    display: flex;
+    padding: 1rem;
+    border-radius: 1px;
+
+}
+nav.links-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto 0;
+}
+ul{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: central;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-up{
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
 
 img {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 275px;
+    height: 120px;
+
 }
+
+.links-header a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: rgb(51, 54, 54);
+    display: flex;
+
+}
+
+.back{
+    background-image: url("img/site-header-background.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-position: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+	z-index: 1;
+
+}
+
+h1{
+    display: block;
+    font-size: 5.8rem;
+    color: #053477;
+
+}
+
+/*header */
+
+h2{
+    font-size: 5rem;
+    color: #2A4B7A;
+
+}
+
+p   {
+    font-size: 1.8rem;
+    color: #053477;
+}
+h3{
+    font-size: 2.5rem;
+    color: #F75F1C;
+
+}
+
+.nuestro-trabajo{
+    display: flex;
+
+}
+.entorno{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*footer*/
+
