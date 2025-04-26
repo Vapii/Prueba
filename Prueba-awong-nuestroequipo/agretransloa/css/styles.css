@@ -1,0 +1,236 @@
+@font-face {
+    font-family: segoi-ui;
+    src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
+}
+
+body {
+    font-family: segoi-ui;
+}
+header{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/site-header-background.jpeg);
+    height: 61rem;
+}
+li{
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+
+}
+nav.links-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto 0;
+}
+
+.title{
+    display: block;
+    margin-top: 15rem;
+    align-items: center;
+}
+ul{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: central;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-up{
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    text-decoration: none;
+    justify-content: space-evenly;
+    background: white;
+}
+
+
+img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 275px;
+    height: 120px;
+
+}
+
+.links-header a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: rgb(51, 54, 54);
+    display: flex;
+
+}
+
+.back{
+    background-size: cover;
+    background-position: center center;
+    background-position: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+	z-index: 1;
+
+}
+
+h1{
+    display: block;
+    font-size: 5.8rem;
+    color: #053477;
+
+}
+
+/*header */
+
+h2{
+    font-size: 5rem;
+    color: #2A4B7A;
+
+}
+
+p   {
+    font-size: 1.8rem;
+    color: #053477;
+}
+h3{
+    font-size: 2.5rem;
+    color: #F75F1C;
+
+}
+
+.title-2 {
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor-trabajo{
+    display: block;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.trabajo{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+
+}
+.nuestro-trabajo{
+    display: block;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    height: 80%;
+    width: 80%;
+}
+.main-trabajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-trabajo{
+    display: flex;
+    margin-right: 5rem;
+    align-items:center;
+    justify-content: center;
+}
+.contenedor-contactos{
+    background: #2A4B7A;
+    display: flex;
+    width: 100%;
+    height: 40rem;
+}
+
+.titulo-h2{
+    display: flex;
+    color: #F75F1C;
+    font-size: 2.2rem;
+    margin-left: 15rem;
+    margin-bottom: 0;
+    align-self: end;
+    
+}
+.entorno{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+}
+.foto-trabajo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20em;
+    margin-top: 1rem;
+}
+.contacto-lateral{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    margin-right: 5px;
+    margin-top: 3rem;
+}
+.contacto-lateral ul {
+    color: white;
+    display: block;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+
+}
+.contacto-lateral li {
+    display: block;
+    padding: 5px;
+}
+.imagen-trabajo{
+    display: flex;
+    margin: 1px;
+}
+
+.informacion-personal{
+    color: #F75F1C;
+
+}
+
+.inputs{
+    width: 30rem;
+    height: 1.5rem;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+textarea{
+    width: 30rem;
+    height: 10rem;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.enviar{
+    background-color: #F75F1C;
+    color: white;
+    font-weight: bolder;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 2px;
+    border: none;
+    margin-top: 1rem;
+}
+
+label{
+    color: white;
+}
+
+/*footer*/
+
